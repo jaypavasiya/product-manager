@@ -71,12 +71,12 @@ const TableToolbar = (props) => {
                 </IconButton>
             </Box>
             {numSelected > 0 ? (
-                <Tooltip title="Delete">
+                <Tooltip title="Delete Product">
                     <IconButton onClick={() => deleteData()}>
                         <DeleteIcon />
                     </IconButton>
                 </Tooltip>
-            ) : <Tooltip title="Delete">
+            ) : <Tooltip title="Add Product">
                 <IconButton onClick={() => navigate('add-product')}>
                     <AddIcon />
                 </IconButton>
